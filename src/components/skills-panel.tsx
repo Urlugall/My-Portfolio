@@ -1,5 +1,5 @@
 'use client';
-import { FC, useState, useEffect, useRef } from 'react';
+import { FC, useState } from 'react';
 import { motion } from 'framer-motion';
 import ScrollPanel from '@/components/scroll-panel'; // Предполагается, что ScrollPanel уже реализован
 

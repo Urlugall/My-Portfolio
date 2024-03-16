@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "mainSkill": "UNITY",
+        "subSkills": ["C# Features", "UI/UX", "Animations", "Procedural Animations", "Particle System", "VFX", "Post-porcessing", "Multiplayer", "PC", "Android", "iOS", "VR", "AR"]
+    },
+    {
+        "id": 2,
+        "mainSkill": "PROGRAMMING LANGUAGES",
+        "subSkills": ["JavaScript", "TypeScript", "Python", "C#", "C++", "C", "PHP", "CSS", "HTML", "SQL", "Java"]
+    },
+    {
+        "id": 3,
+        "mainSkill": "DESIGN",
+        "subSkills": ["Krita", "Blender", "MagicaVoxel", "Photoshop", "Figma"]
+    },
+    {
+        "id": 4,
+        "mainSkill": "AUDIO",
+        "subSkills": ["Adobe Audition", "BoscaCeoil", "Guitar Pro 5"]
+    },
+    {
+        "id": 5,
+        "mainSkill": "WEB DEVELOPMENT",
+        "subSkills": ["Flask", "React", "Tailwind CSS", "Framer Motion", "i18n"]
+    },
+    {
+        "id": 6,
+        "mainSkill": "API",
+        "subSkills": ["OpenAI", "NovaPoshta", "Telegram", "Discord", "Weather", "Roll20"]
+    },
+    {
+        "id": 7,
+        "mainSkill": "SOFT SKILLS",
+        "subSkills": ["Communication", "Rational", "Flexibility", "Teamwork", "Curiosity", "Patience"]
+    }
+]

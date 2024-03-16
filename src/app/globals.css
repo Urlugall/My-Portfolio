@@ -1,0 +1,136 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Gotham-Pro';
+  src: url('/fonts/gothampro_regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham-Pro';
+  src: url('/fonts/gothampro_bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham-Pro';
+  src: url('/fonts/gothampro_medium.ttf') format('truetype');
+  font-weight: medium;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham-Pro';
+  src: url('/fonts/gothampro_italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+
+html {
+  color: #AF9E7C;
+  font-family: 'Gotham-Pro', Arial, Helvetica, sans-serif;
+}
+
+.main-container {
+  @apply bg-custom-blue h-screen overflow-hidden relative scrollbar-hide p-6 sm:p-8 md:p-10 lg:p-14;
+}
+
+.regular-text {
+  @apply text-xl font-medium text-sm md:text-base lg:text-xl;
+}
+
+.page-content {
+  animation: fadeIn .5s ease-out forwards;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;  /* Chrome, Safari, Opera*/
+  width: 0;
+  background: transparent;
+}
+
+.image-bottom-right, .image-top-left{
+  position: absolute;
+  width: 35vw;
+  height: 35vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 2%;
+}
+
+.image-top-right, .image-bottom-left {
+  position: absolute;
+  width: 49vw;
+  height: 49vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 1%;
+  z-index: -1;
+}
+
+.image-top-left {
+  top: 0;
+  left: 0;
+  background-image: url('/borders/border-left.png');
+  background-position: left top;
+}
+
+.image-bottom-right {
+  bottom: 0;
+  right: 0;
+  background-image: url('/borders/border-right.png');
+  background-position: right bottom;
+}
+
+.image-top-right {
+  top: 0;
+  right: 0;
+  background-image: url('/borders/border-top.png');
+  background-position: right top;
+}
+
+.image-bottom-left {
+  bottom: 0;
+  left: 0;
+  background-image: url('/borders/border-bottom.png');
+  background-position: left bottom;
+}
+
+.panel-close {
+  position: fixed;
+  height: 5vh;
+  width: 5vh;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  background-image: url('/sprites/close.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin: 3.2%;
+  z-index: 2;
+}
+
+.bg-content {
+  color: #98845C;
+}

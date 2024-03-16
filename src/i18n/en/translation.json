@@ -1,0 +1,29 @@
+{
+  "nav": {
+    "greetings": "Greetings",
+    "projects": "Projects",
+    "contacts": "Contacts"
+  },
+  "projectsPage": {
+    "title": "My Projects",
+    "description": "This is a brief description of Project"
+  },
+  "projects": [
+    {
+      "id": 1,
+      "title": "Project One",
+      "hashtagKeys": [
+        "design",
+        "frontend"
+      ],
+      "imageUrl": "/project-one.png",
+      "detailsUrl": "/project-one"
+    }
+  ],
+  "hashtagsList": {
+    "design": {
+      "color": "#f44336",
+      "name": "#Design"
+    }
+  }
+}

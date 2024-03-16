@@ -1,0 +1,28 @@
+{
+  "nav": {
+    "greetings": "Приветствия",
+    "projects": "Проекты",
+    "contacts": "Контакты"
+  },
+  "projectsPage": {
+    "title": "Мои Проекты",
+    "description": "Это краткое описание проекта"
+  },
+  "projects": [
+    {
+      "id": 1,
+      "title": "Первый проэкт",
+      "hashtagKeys": [
+        "design"
+      ],
+      "imageUrl": "/project-one.png",
+      "detailsUrl": "/project-one"
+    }
+  ],
+  "hashtagsList": {
+    "design": {
+      "color": "#f44336",
+      "name": "#Дизайн"
+    }
+  }
+}

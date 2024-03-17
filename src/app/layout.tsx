@@ -5,13 +5,14 @@ import './globals.css';
 
 const inter = Inter({ subsets: ['latin'] });
 
-interface RootLayoutProps {
+// RootLayout component provides a consistent layout for all pages
+export default function RootLayout({
+  children,
+  pageTitle = 'My Portfolio',
+}: {
   children: ReactNode;
   pageTitle?: string;
-}
-
-// RootLayout component provides a consistent layout for all pages
-export default function RootLayout({ children, pageTitle = 'My Portfolio' }: RootLayoutProps) {
+}) {
   return (
     <html lang="en">
       <Head>
